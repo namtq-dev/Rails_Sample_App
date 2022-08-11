@@ -1,33 +1,47 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# The following keys must be escaped otherwise they will not be retrieved by
-# the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   'true': 'foo'
-#
-# To learn more, please read the Rails Internationalization guide
-# available at https://guides.rubyonrails.org/i18n.html.
-
 en:
-  hello: "Hello world"
+  base_title: "Ruby on Rails Tutorial Sample App"
+  layouts:
+    header:
+      english: "English"
+      vietnamese: "Vietnamese"
+      home: "Home"
+      help: "Help"
+      login: "Log in"
+    footer:
+      about: "About"
+      contact: "Contact"
+      news: "News"
+      the: "The"
+      by: "by"
+  static_pages:
+    home:
+      home: "Home"
+      welcome: "Welcome to Sample App"
+      intro1: "This is the home page for the"
+      intro2: "sample application."
+      intro3: "Ruby on Rails Tutorial"
+      signupnow: "Sign up now!"
+    help:
+      help: "Help"
+      intro1: "Get help on the Ruby on Rails Tutorial at the"
+      intro2: "Rails Tutorial help pages"
+      intro3: "To get help on this sample app, see the"
+      intro4: "Ruby on Rails Tutorial"
+    about:
+      about: "About"
+      part: "part of the"
+      learn_enough: "Learn Enough,"
+      intro1: "family of tutorials, is a"
+      book: "book"
+      and: "and"
+      series: "screencast series"
+      intro2: "to teach web development with"
+      intro3: "This is the sample app for the tutorial."
+    contact:
+      contact: "Contact"
+      intro1: "Contact the Ruby on Rails Tutorial about the sample app at the"
+      intro2: "contact page"
+  users:
+    new:
+      signup: "Sign up"
+      intro: "This will be a signup page for new users."

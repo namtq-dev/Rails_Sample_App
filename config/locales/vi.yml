@@ -1,0 +1,47 @@
+vi:
+  base_title: "Ứng dụng mẫu Ruby on Rails"
+  layouts:
+    header:
+      english: "Tiếng Anh"
+      vietnamese: "Tiếng Việt"
+      home: "Trang chủ"
+      help: "Trợ giúp"
+      login: "Đăng nhập"
+    footer:
+      about: "Thông tin"
+      contact: "Liên hệ"
+      news: "Tin tức"
+      the: "Cuốn sách"
+      by: "bởi"
+  static_pages:
+    home:
+      home: "Trang chủ"
+      welcome: "Chào mừng tới Ứng dụng mẫu"
+      intro1: "Đây là trang web"
+      intro2: "với ví dụ."
+      intro3: "Hướng dẫn Ruby on Rails"
+      signupnow: "Đăng ký ngay!"
+    help:
+      help: "Trợ giúp"
+      intro1: "Tìm kiếm sự trợ giúp ở"
+      intro2: "Trang trợ giúp hướng dẫn Rails"
+      intro3: "Có thể tìm kiếm giúp đỡ về ví dụ ở"
+      intro4: "Hướng dẫn Ruby on Rails"
+    about:
+      about: "Thông tin"
+      part: "một phần của tập hợp những hướng dẫn trong"
+      learn_enough: "Learn Enough,"
+      intro1: "là một"
+      book: "cuốn sách"
+      and: "và"
+      series: "những chuỗi screencast"
+      intro2: "để dạy phát triển web với"
+      intro3: "Đây là ứng dụng mẫu."
+    contact:
+      contact: "Liên hệ"
+      intro1: "Liên hệ với trang chủ chính thức Ruby on Rails tại"
+      intro2: "đây"
+  users:
+    new:
+      signup: "Đăng ký"
+      intro: "Đây là trang đăng ký cho người mới."
