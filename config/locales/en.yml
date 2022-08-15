@@ -42,6 +42,24 @@ en:
       intro1: "Contact the Ruby on Rails Tutorial about the sample app at the"
       intro2: "contact page"
   users:
+    show:
+      invalid_user: "No user found!"
     new:
       signup: "Sign up"
-      intro: "This will be a signup page for new users."
+      confirmation: "Password confirmation"
+      create_acc_btn: "Create my account"
+    create:
+      welcome: "Welcome to the Sample App!"
+      error: "Can't create user"
+  activerecord:
+    models:
+      user: "User"
+    attributes:
+      user:
+        name: "Name"
+        email: "Email"
+        password: "Password"
+  shared:
+    error_messages:
+      intro: "The form contains"
+      error: "error"
