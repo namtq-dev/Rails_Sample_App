@@ -42,6 +42,24 @@ vi:
       intro1: "Liên hệ với trang chủ chính thức Ruby on Rails tại"
       intro2: "đây"
   users:
+    show:
+      invalid_user: "Không tìm thấy người dùng"
     new:
       signup: "Đăng ký"
-      intro: "Đây là trang đăng ký cho người mới."
+      confirmation: "Xác nhận mật khẩu"
+      create_acc_btn: "Tạo tài khoản"
+    create:
+      welcome: "Chào mừng tới Ứng dụng mẫu"
+      error: "Không thể tạo người dùng mới"
+  activerecord:
+    models:
+      user: "Người dùng"
+    attributes:
+      user:
+        name: "Tên đăng nhập"
+        email: "Email"
+        password: "Mật khẩu"
+  shared:
+    error_messages:
+      intro: "Form có"
+      error: "lỗi"
