@@ -7,6 +7,11 @@ en:
       home: "Home"
       help: "Help"
       login: "Log in"
+      users: "Users"
+      account: "Account"
+      profile: "Profile"
+      settings: "Settings"
+      logout: "Log out"
     footer:
       about: "About"
       contact: "Contact"
@@ -63,3 +68,12 @@ en:
     error_messages:
       intro: "The form contains"
       error: "error"
+  sessions:
+    create:
+      invalid_combo: "Invalid email/password combination"
+    new:
+      login: "Log in"
+      new_user: "New user?"
+      signup_now: "Sign up now!"
+      email: "Email"
+      password: "Password"

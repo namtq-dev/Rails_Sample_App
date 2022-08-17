@@ -7,6 +7,11 @@ vi:
       home: "Trang chủ"
       help: "Trợ giúp"
       login: "Đăng nhập"
+      users: "Người dùng"
+      account: "Tài khoản"
+      profile: "Hồ sơ"
+      settings: "Cài đặt"
+      logout: "Đăng xuất"
     footer:
       about: "Thông tin"
       contact: "Liên hệ"
@@ -63,3 +68,12 @@ vi:
     error_messages:
       intro: "Form có"
       error: "lỗi"
+  sessions:
+    create:
+      invalid_combo: "Email hoặc Mật khẩu không đúng"
+    new:
+        login: "Đăng nhập"
+        new_user: "Người dùng mới?"
+        signup_now: "Đăng ký ngay!"
+        email: "Email"
+        password: "Mật khẩu"
