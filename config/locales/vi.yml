@@ -72,8 +72,9 @@ vi:
     create:
       invalid_combo: "Email hoặc Mật khẩu không đúng"
     new:
-        login: "Đăng nhập"
-        new_user: "Người dùng mới?"
-        signup_now: "Đăng ký ngay!"
-        email: "Email"
-        password: "Mật khẩu"
+      login: "Đăng nhập"
+      new_user: "Người dùng mới?"
+      signup_now: "Đăng ký ngay!"
+      email: "Email"
+      password: "Mật khẩu"
+      remember_me: "Nhớ tôi trên máy tính này"
