@@ -47,15 +47,32 @@ en:
       intro1: "Contact the Ruby on Rails Tutorial about the sample app at the"
       intro2: "contact page"
   users:
-    show:
-      invalid_user: "No user found!"
+    invalid_user: "No user found!"
+    not_login: "Please log in."
+    index:
+      all: "All users"
     new:
       signup: "Sign up"
-      confirmation: "Password confirmation"
       create_acc_btn: "Create my account"
     create:
       welcome: "Welcome to the Sample App!"
       error: "Can't create user"
+    edit:
+      edit: "Edit user"
+      save: "Save changes"
+      update_pro5: "Update your profile"
+      change: "Change"
+    update:
+      update_success: "Profile updated"
+      update_fail: "Profile update failed"
+    destroy:
+      del_success: "User deleted"
+      del_fail: "User delete failed"
+    user:
+      delete: "delete"
+      u_sure?: "You sure?"
+    form:
+      confirmation: "Password confirmation"
   activerecord:
     models:
       user: "User"
