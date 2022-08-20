@@ -10,7 +10,10 @@ url:
   author_url: "https://www.michaelhartl.com/"
 validate:
   length:
+    length_80 : 80
     length_50: 50
     length_6: 6
     length_255: 255
   valid_email_regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-]+(\.[a-z\d\-]+)*\.[a-z]+\z/i
+pagy:
+  items_per_page: 30

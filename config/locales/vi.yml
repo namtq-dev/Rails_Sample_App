@@ -47,15 +47,32 @@ vi:
       intro1: "Liên hệ với trang chủ chính thức Ruby on Rails tại"
       intro2: "đây"
   users:
-    show:
-      invalid_user: "Không tìm thấy người dùng"
+    invalid_user: "Không tìm thấy người dùng"
+    not_login: "Xin hãy đăng nhập."
+    index:
+     all: "Tất cả người dùng"
     new:
       signup: "Đăng ký"
-      confirmation: "Xác nhận mật khẩu"
       create_acc_btn: "Tạo tài khoản"
     create:
       welcome: "Chào mừng tới Ứng dụng mẫu"
       error: "Không thể tạo người dùng mới"
+    edit:
+      edit: "Chỉnh sửa"
+      save: "Lưu thay đổi"
+      update_pro5: "Cập nhật hồ sơ của bạn"
+      change: "Thay ảnh"
+    update:
+      update_success: "Profile cập nhật thành công"
+      update_fail: "Profile cập nhật thất bại"
+    destroy:
+      del_success: "Xóa người dùng thành công"
+      del_fail: "Xóa người dùng thất bại"
+    user:
+      delete: "xóa"
+      u_sure?: "Bạn có chắc không?"
+    form:
+      confirmation: "Xác nhận mật khẩu"
   activerecord:
     models:
       user: "Người dùng"
