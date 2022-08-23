@@ -19,3 +19,5 @@ pagy:
   items_per_page: 30
 mailer:
   from: "quangnam260800@gmail.com"
+password_reset:
+  expired_time: 2
