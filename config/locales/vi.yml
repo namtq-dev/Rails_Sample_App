@@ -1,5 +1,6 @@
 vi:
   base_title: "Ứng dụng mẫu Ruby on Rails"
+  invalid_user: "Không tìm thấy người dùng"
   layouts:
     header:
       english: "Tiếng Anh"
@@ -47,7 +48,6 @@ vi:
       intro1: "Liên hệ với trang chủ chính thức Ruby on Rails tại"
       intro2: "đây"
   users:
-    invalid_user: "Không tìm thấy người dùng"
     not_login: "Xin hãy đăng nhập."
     index:
      all: "Tất cả người dùng"
@@ -97,10 +97,27 @@ vi:
       email: "Email"
       password: "Mật khẩu"
       remember_me: "Nhớ tôi trên máy tính này"
+      forgot: (quên mật khẩu)
   account_activations:
     edit:
       activated: "Tài khoản đã được kích hoạt!"
       invalid_activation: "Link kích hoạt tài khoản không hợp lệ"
+  password_resets:
+    invalid_user: "Người dùng không hợp lệ!"
+    create:
+      email_pass_reset_instructions: "Email đã được gửi với hướng dẫn đặt lại mật khẩu"
+      email_not_found: "Không tìm thấy địa chỉ email"
+    update:
+      empty_pass: "không thể để trống"
+      updated: "Mật khẩu đã được cài đặt lại."
+      update_failed: "Cập nhật mật khẩu thất bại."
+    edit:
+      password_reset_expired: "Yêu cầu đặt lại mật khẩu đã hết hạn"
+      reset_password: "Đặt lại mật khẩu"
+      update_btn: "Cập nhật mật khẩu"
+    new:
+      forgot_password: "Quên mật khẩu"
+      submit_btn: "Xác nhận"
   user_mailer:
     account_activation:
       sample_app: "Ứng dụng mẫu"
@@ -108,3 +125,9 @@ vi:
       subject: "Kích hoạt tài khoản"
       intro: "Chào mừng tới Sample App! Nhấn vào liên kết dưới đây để kích hoạt tài khoản:"
       activate: "Kích hoạt tài khoản"
+    password_reset:
+      subject: "Đặt lại mật khẩu"
+      intro1: "Để đặt lại mật khẩu, hãy nhấn vào liên kết dưới đây:"
+      intro2: "Liên  kết này sẽ hết hạn sau 2 giờ."
+      intro3: "Nếu bạn không yêu cầu đặt lại mật khẩu, hãy bỏ qua email này
+                và mật khẩu của bạn sẽ giữ nguyên."
