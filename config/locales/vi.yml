@@ -57,6 +57,7 @@ vi:
     create:
       welcome: "Chào mừng tới Ứng dụng mẫu"
       error: "Không thể tạo người dùng mới"
+      check_mail: "Kiểm tra email của bạn để nhận link kích hoạt tài khoản."
     edit:
       edit: "Chỉnh sửa"
       save: "Lưu thay đổi"
@@ -88,6 +89,7 @@ vi:
   sessions:
     create:
       invalid_combo: "Email hoặc Mật khẩu không đúng"
+      acc_not_activated: "Tài khoản chưa được kích hoạt. Kiểm tra email của bạn."
     new:
       login: "Đăng nhập"
       new_user: "Người dùng mới?"
@@ -95,3 +97,14 @@ vi:
       email: "Email"
       password: "Mật khẩu"
       remember_me: "Nhớ tôi trên máy tính này"
+  account_activations:
+    edit:
+      activated: "Tài khoản đã được kích hoạt!"
+      invalid_activation: "Link kích hoạt tài khoản không hợp lệ"
+  user_mailer:
+    account_activation:
+      sample_app: "Ứng dụng mẫu"
+      greeting: "Xin chào"
+      subject: "Kích hoạt tài khoản"
+      intro: "Chào mừng tới Sample App! Nhấn vào liên kết dưới đây để kích hoạt tài khoản:"
+      activate: "Kích hoạt tài khoản"

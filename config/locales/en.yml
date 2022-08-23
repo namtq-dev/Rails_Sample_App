@@ -57,6 +57,7 @@ en:
     create:
       welcome: "Welcome to the Sample App!"
       error: "Can't create user"
+      check_mail: "Please check your email to activate your account."
     edit:
       edit: "Edit user"
       save: "Save changes"
@@ -88,6 +89,7 @@ en:
   sessions:
     create:
       invalid_combo: "Invalid email/password combination"
+      acc_not_activated: "Account not activated. Check your email for the activation link."
     new:
       login: "Log in"
       new_user: "New user?"
@@ -95,3 +97,14 @@ en:
       email: "Email"
       password: "Password"
       remember_me: "Remember me on this computer"
+  account_activations:
+    edit:
+      activated: "Account activated!"
+      invalid_activation: "Invalid activation link"
+  user_mailer:
+    account_activation:
+      sample_app: "Sample App"
+      greeting: "Hi"
+      subject: "Account activation"
+      intro: "Welcome to the Sample App! Click on the link below to activate your account:"
+      activate: "Activate"

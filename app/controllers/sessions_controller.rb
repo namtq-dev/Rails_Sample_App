@@ -2,9 +2,14 @@ class SessionsController < ApplicationController
   def new; end
 
   def authenticated user
-    log_in user
-    params[:session][:remember_me] == "1" ? remember(user) : forget(user)
-    redirect_back_or user
+    if user.activated?
+      log_in user
+      params[:session][:remember_me] == "1" ? remember(user) : forget(user)
+      redirect_back_or user
+    else
+      flash[:warning] = t(".acc_not_activated")
+      redirect_to root_url
+    end
   end
 
   def create
