@@ -1,6 +1,7 @@
 vi:
   base_title: "Ứng dụng mẫu Ruby on Rails"
   invalid_user: "Không tìm thấy người dùng"
+  not_login: "Xin hãy đăng nhập."
   layouts:
     header:
       english: "Tiếng Anh"
@@ -27,6 +28,7 @@ vi:
       intro2: "với ví dụ."
       intro3: "Hướng dẫn Ruby on Rails"
       signupnow: "Đăng ký ngay!"
+      micropost_feed: "Bảng tin"
     help:
       help: "Trợ giúp"
       intro1: "Tìm kiếm sự trợ giúp ở"
@@ -48,7 +50,6 @@ vi:
       intro1: "Liên hệ với trang chủ chính thức Ruby on Rails tại"
       intro2: "đây"
   users:
-    not_login: "Xin hãy đăng nhập."
     index:
      all: "Tất cả người dùng"
     new:
@@ -66,6 +67,8 @@ vi:
     update:
       update_success: "Profile cập nhật thành công"
       update_fail: "Profile cập nhật thất bại"
+    show:
+      microposts: "Bài đăng"
     destroy:
       del_success: "Xóa người dùng thành công"
       del_fail: "Xóa người dùng thất bại"
@@ -82,10 +85,23 @@ vi:
         name: "Tên đăng nhập"
         email: "Email"
         password: "Mật khẩu"
+    errors:
+      models:
+        micropost:
+          attributes:
+            image:
+              img_format: "Phải là format ảnh phù hợp"
   shared:
     error_messages:
       intro: "Form có"
       error: "lỗi"
+    micropost_form:
+      new_micropost: "Tạo bài đăng mới..."
+      post: "Đăng"
+      large_img_error: "Kích cỡ tối đa của ảnh là 5MB, hãy chọn ảnh nhỏ hơn."
+    user_info:
+      view_my_profile: "Xem bài đăng của tôi"
+      micropost: "Bài đăng"
   sessions:
     create:
       invalid_combo: "Email hoặc Mật khẩu không đúng"
@@ -131,3 +147,15 @@ vi:
       intro2: "Liên  kết này sẽ hết hạn sau 2 giờ."
       intro3: "Nếu bạn không yêu cầu đặt lại mật khẩu, hãy bỏ qua email này
                 và mật khẩu của bạn sẽ giữ nguyên."
+  microposts:
+    create:
+      save_success: "Bài viết đã được tạo"
+    destroy:
+      micropost_deleted: "Bài viết đã bị xóa"
+      delete_failed: "Không thể xóa bài viết"
+    micropost:
+      posted: "Bài viết được đăng"
+      ago: "trước."
+      delete: "Xóa"
+      you_sure: "Bạn chắc chứ?"
+    invalid_micropost: "Không thể tìm thấy bài đăng."

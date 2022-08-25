@@ -1,6 +1,7 @@
 en:
   base_title: "Ruby on Rails Tutorial Sample App"
   invalid_user: "No user found!"
+  not_login: "Please log in."
   layouts:
     header:
       english: "English"
@@ -27,6 +28,7 @@ en:
       intro2: "sample application."
       intro3: "Ruby on Rails Tutorial"
       signupnow: "Sign up now!"
+      micropost_feed: "Micropost Feed"
     help:
       help: "Help"
       intro1: "Get help on the Ruby on Rails Tutorial at the"
@@ -48,7 +50,6 @@ en:
       intro1: "Contact the Ruby on Rails Tutorial about the sample app at the"
       intro2: "contact page"
   users:
-    not_login: "Please log in."
     index:
       all: "All users"
     new:
@@ -66,6 +67,8 @@ en:
     update:
       update_success: "Profile updated"
       update_fail: "Profile update failed"
+    show:
+      microposts: "Microposts"
     destroy:
       del_success: "User deleted"
       del_fail: "User delete failed"
@@ -82,10 +85,23 @@ en:
         name: "Name"
         email: "Email"
         password: "Password"
+    errors:
+      models:
+        micropost:
+          attributes:
+            image:
+              img_format: "Must be a valid image format"
   shared:
     error_messages:
       intro: "The form contains"
       error: "error"
+    micropost_form:
+      new_micropost: "Compose new micropost..."
+      post: "Post"
+      large_img_error: "Maximum file size is 5MB. Please choose a smaller file."
+    user_info:
+      view_my_profile: "View my profile"
+      micropost: "Micropost"
   sessions:
     create:
       invalid_combo: "Invalid email/password combination"
@@ -131,3 +147,15 @@ en:
       intro2: "This link will expire in two hours."
       intro3: "If you did not request your password to be reset, please ignore this email and
                 your password will stay as it is."
+  microposts:
+    create:
+      save_success: "Micropost created!"
+    destroy:
+      micropost_deleted: "Micropost deleted"
+      delete_failed: "Microposts delete failed"
+    micropost:
+      posted: "Posted"
+      ago: "ago."
+      delete: "delete"
+      you_sure: "You sure?"
+    invalid_micropost: "Cannot find micropost"
