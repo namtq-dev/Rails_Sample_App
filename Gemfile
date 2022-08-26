@@ -3,13 +3,17 @@ git_source(:github){|repo| "https://github.com/#{repo}.git"}
 
 ruby "3.1.2"
 
+gem "active_storage_validations", "0.8.2"
 gem "bcrypt", "3.1.13"
 gem "bootsnap", ">= 1.4.4", require: false
 gem "bootstrap-sass", "3.4.1"
 gem "config"
 gem "faker", "2.11.0"
 gem "figaro"
+gem "i18n-js"
+gem "image_processing", "1.12.2"
 gem "jbuilder", "~> 2.7"
+gem "mini_magick", "4.9.5"
 gem "mysql2", "~> 0.5"
 gem "net-smtp", require: false
 gem "pagy", "~> 5.10"
@@ -22,6 +26,7 @@ gem "webpacker", "~> 5.0"
 
 group :development, :test do
   gem "byebug", platforms: [:mri, :mingw, :x64_mingw]
+  gem "pry-rails"
 end
 
 group :development do

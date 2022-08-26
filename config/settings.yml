@@ -14,6 +14,7 @@ validate:
     length_50: 50
     length_6: 6
     length_255: 255
+    length_140: 140
   valid_email_regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-]+(\.[a-z\d\-]+)*\.[a-z]+\z/i
 pagy:
   items_per_page: 30
@@ -21,3 +22,7 @@ mailer:
   from: "quangnam260800@gmail.com"
 password_reset:
   expired_time: 2
+micropost:
+  image_type: ["image/jpeg", "image/gif", "image/png"]
+  image_limit: [500, 500]
+  accept_format: "image/jpeg,image/gif,image/png"

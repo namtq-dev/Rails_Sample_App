@@ -11,6 +11,10 @@ class UsersController < ApplicationController
 
   def show
     redirect_to root_url and return unless @user.activated?
+
+    @pagy, @microposts = pagy(@user.microposts,
+                              page: params[:page],
+                              items: Settings.pagy.items_per_page)
   end
 
   def new
@@ -57,15 +61,6 @@ class UsersController < ApplicationController
   end
 
   # Before filters
-
-  # Confirms a logged-in user.
-  def logged_in_user
-    return if logged_in?
-
-    store_location
-    flash[:danger] = t(".not_login")
-    redirect_to login_url
-  end
 
   def find_user
     @user = User.find_by id: params[:id]
