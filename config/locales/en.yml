@@ -52,6 +52,8 @@ en:
   users:
     index:
       all: "All users"
+    search_form:
+      search: "Search"
     new:
       signup: "Sign up"
       create_acc_btn: "Create my account"
@@ -72,6 +74,13 @@ en:
     destroy:
       del_success: "User deleted"
       del_fail: "User delete failed"
+    follow:
+      follow: "Follow"
+    unfollow:
+      unfollow: "Unfollow"
+    show_follow:
+      microposts: "Microposts"
+      view_profile: "View my profile"
     user:
       delete: "delete"
       u_sure?: "You sure?"
@@ -102,6 +111,9 @@ en:
     user_info:
       view_my_profile: "View my profile"
       micropost: "Micropost"
+    stats:
+      following: "following"
+      followers: "followers"
   sessions:
     create:
       invalid_combo: "Invalid email/password combination"
@@ -159,3 +171,8 @@ en:
       delete: "delete"
       you_sure: "You sure?"
     invalid_micropost: "Cannot find micropost"
+  relationships:
+    following:
+      following: "Following"
+    followers:
+      followers: "Followers"

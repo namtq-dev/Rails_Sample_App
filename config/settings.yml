@@ -12,6 +12,7 @@ validate:
   length:
     length_80 : 80
     length_50: 50
+    length_30: 30
     length_6: 6
     length_255: 255
     length_140: 140

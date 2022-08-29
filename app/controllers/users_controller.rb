@@ -1,12 +1,13 @@
 class UsersController < ApplicationController
-  before_action :logged_in_user, only: %i(index edit update destroy)
-  before_action :find_user, only: %i(show edit update destroy)
+  before_action :logged_in_user, except: %i(new create show)
+  before_action :find_user, except: %i(index new create)
   before_action :correct_user, only: %i(edit update)
   before_action :admin_user, only: %i(destroy)
 
   def index
-    @pagy, @users = pagy(User.all, page: params[:page],
-                                  items: Settings.pagy.items_per_page)
+    @search_user = User.search_by_name(params[:term]).activated
+    @pagy, @users = pagy(@search_user, page: params[:page],
+                                      items: Settings.pagy.items_per_page)
   end
 
   def show
@@ -61,14 +62,6 @@ class UsersController < ApplicationController
   end
 
   # Before filters
-
-  def find_user
-    @user = User.find_by id: params[:id]
-    return if @user
-
-    flash[:warning] = t(".invalid_user")
-    redirect_to root_path
-  end
 
   # Confirms the correct user.
   def correct_user
