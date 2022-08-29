@@ -72,6 +72,13 @@ vi:
     destroy:
       del_success: "Xóa người dùng thành công"
       del_fail: "Xóa người dùng thất bại"
+    follow:
+      follow: "Theo dõi"
+    unfollow:
+      unfollow: "Bỏ theo dõi"
+    show_follow:
+      microposts: "Các bài đăng"
+      view_profile: "Xem hồ sơ"
     user:
       delete: "xóa"
       u_sure?: "Bạn có chắc không?"
@@ -102,6 +109,9 @@ vi:
     user_info:
       view_my_profile: "Xem bài đăng của tôi"
       micropost: "Bài đăng"
+    stats:
+      following: "đang theo dõi"
+      followers: "người theo dõi"
   sessions:
     create:
       invalid_combo: "Email hoặc Mật khẩu không đúng"
@@ -159,3 +169,8 @@ vi:
       delete: "Xóa"
       you_sure: "Bạn chắc chứ?"
     invalid_micropost: "Không thể tìm thấy bài đăng."
+  relationships:
+    following:
+      following: "Đang theo dõi"
+    followers:
+      followers: "Người theo dõi"
