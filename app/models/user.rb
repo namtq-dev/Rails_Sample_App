@@ -14,6 +14,9 @@ class User < ApplicationRecord
   before_save :downcase_email
   before_create :create_activation_digest
 
+  scope :activated, ->{where activated: true}
+  scope :search_by_name, ->(term){where "name LIKE ?", "%#{term}%"}
+
   validates :name, presence: true,
     length: {maximum: Settings.validate.length.length_50}
 

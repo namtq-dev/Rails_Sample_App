@@ -52,6 +52,8 @@ vi:
   users:
     index:
      all: "Tất cả người dùng"
+    search_form:
+     search: "Tìm kiếm"
     new:
       signup: "Đăng ký"
       create_acc_btn: "Tạo tài khoản"
