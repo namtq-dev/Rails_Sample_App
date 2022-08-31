@@ -25,5 +25,5 @@ password_reset:
   expired_time: 2
 micropost:
   image_type: ["image/jpeg", "image/gif", "image/png"]
-  image_limit: [500, 500]
+  image_limit: [300, 300]
   accept_format: "image/jpeg,image/gif,image/png"
